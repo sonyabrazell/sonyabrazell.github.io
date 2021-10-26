@@ -1,0 +1,69 @@
+body {
+    background-color:linen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-size: 14px;
+    color:black
+}
+
+/* unvisited link */
+a:active {
+    color: peru
+  }
+  
+  /* visited link */
+  a:visited {
+    color:peru;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: tomato;
+  }
+  
+  /* selected link */
+  a:active {
+    color:tomato;
+  }
+
+h1 {
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+h2 {
+    color:mediumpurple;
+    text-align: left;
+}
+
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:tomato;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:linen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform:lowercase;
+    padding: 14px 16px;
+    text-decoration: none;
+}
