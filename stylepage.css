@@ -1,44 +1,58 @@
 .header {
-  background-color:linen;
+  background: color #fbf2e8;
   text-align: center;
   padding: 20px;
 }
 
 body {
-    background-color:linen;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    font-size: 14px;
+    background-color:#fbf2e8;
+    background-image: url('sbportfolio2.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: scroll;
+    background-position:top; 
+    font-family: Muli, sans-serif;
+    font-size: 16px;
     color:black
 }
 
 /* unvisited link */
   a:active {
-    color: mediumpurple;
+    color: #d9632d;
   }
   
   /* visited link */
   a:visited {
-    color: peru;
+    color: #e9a58c;
   }
   
   /* mouse over link */
   a:hover {
-    color: mediumpurple;
+    color: #eae862;
   }
 
 h1 {
-    color: chocolate;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b47c3d;
+    font-family: "Space Mono", monospace;
     text-align: left;
+    font-size: 42px;
+    font-style: bold;
 }
 h2 {
-    color:mediumpurple;
+    color: #d9632d;
     text-align: left;
+    font-size: 28px;
+}
+
+h3 {
+  color: #75a569;
+  text-align: left;
+  font-size: 20px;
 }
 
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Muli, sans-serif;
     font-size: 18px;
     text-align: left;
 }
@@ -48,7 +62,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:tomato;
+    background-color: #4754e4;
     position: fixed;
     top: 0;
     width: 100%;
@@ -60,10 +74,11 @@ li {
 
 li a {
     display: block;
-    color:linen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    color:#fbf2e8;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
     text-align: center;
+    font-style: italic;
     text-transform:lowercase;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,4 +88,22 @@ li a {
   display: flex;
   flex-wrap: row wrap;
 }
- 
+
+.cards {
+  display: grid;
+  grid-template-columns:  minmax(100px, max-content)
+                          repeat(auto-fill, 200px) 20%;
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 300px;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
