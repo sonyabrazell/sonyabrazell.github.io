@@ -10,7 +10,7 @@ html {
 
 body {
     background-color:#fbf2e8;
-    background-image: url('sbportfolio2.png');
+    background-image: url('Images/sbportfolio.png');
     background-repeat: no-repeat;
     background-size:100%;
     background-attachment: scroll;
@@ -68,6 +68,12 @@ p {
     text-align: left;
 }
 
+.about {
+  font-family: Muli, sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
+
 /* Block navigation bar */
 
 ul {
@@ -115,12 +121,21 @@ li a {
   box-sizing: inherit;
 }
 .cards {
-  display: block flex;
+  display: inline-block;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
   align-content: center;
+  width: 500px;
+  height: 300px;
+  border:10px solid transparent;
+  padding: 15px;
+  background: url(Images/border.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment: scroll;
+  background-position:top; 
 }
 
 .card {
@@ -131,24 +146,24 @@ li a {
 
 .card img {
   display: block;
+  border-radius: 0%;
+  size:100px;
   width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 ::after {
   box-sizing: inherit;
 }
 
-.projectheadings {
-  display:inherit;
-  justify-self: center;
-  color: #d9632d;
-  text-align: left;
-  font-size: 28px;
-}
+/* //about section row// */
 
 .row {
   display: flex;
   padding: 20px;
+  column-count: 2;
+  column-gap: 10px;
 }
 
 .column {
@@ -160,15 +175,30 @@ li a {
   .column {
     width:100%
   }
-  
 }
 
-img {
-  border-radius: 50%;
-  size:150px;
-}
+/* // photo styling // */
 
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.photo {
+  float: left;
+  padding: 50px;
+  border-radius: 50%;
+  width: 500px;
+  border-style: dashed;
+  border-color: #e9a58c;
+  padding: 5px;
+  shape-outside: circle();
+  shape-image-threshold: 1px;
+  shape-margin: 1%;
+}
+
+.project-photo {
+  float:left;
+  width: 100px;
+  object-fit: contain;
 }
