@@ -139,16 +139,16 @@ li a {
 }
 
 .card {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-auto-rows: auto;
+  justify-items: center;
   flex-wrap: wrap;
 }
 
 .card img {
-  display: block;
+  display: grid;
   border-radius: 0%;
-  size:100px;
-  width: 100%;
+  width: 150px;
   padding: 5px;
   box-sizing: border-box;
 }
