@@ -1,3 +1,9 @@
+.header {
+  background-color:linen;
+  text-align: center;
+  padding: 20px;
+}
+
 body {
     background-color:linen;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -6,23 +12,18 @@ body {
 }
 
 /* unvisited link */
-a:active {
-    color: peru
+  a:active {
+    color: mediumpurple;
   }
   
   /* visited link */
   a:visited {
-    color:peru;
+    color: peru;
   }
   
   /* mouse over link */
   a:hover {
-    color: tomato;
-  }
-  
-  /* selected link */
-  a:active {
-    color:tomato;
+    color: mediumpurple;
   }
 
 h1 {
@@ -41,7 +42,7 @@ p {
     font-size: 18px;
     text-align: left;
 }
-
+/* Block navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -67,3 +68,9 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: row wrap;
+}
+ 
