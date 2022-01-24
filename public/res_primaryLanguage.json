@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Sonya Brazell(she/her). I'm a developer, designer, and entreprenuer based in Austin, TX. Beautiful functionality is my happy place. I thrive in order and color, and I adore being able to play in the intersection between technical and visual.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,8 +11,8 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
+        "title": "ReposiStory",
+        "startDate": "2021",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
@@ -21,22 +21,22 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
+        "title": "Rebel Tuesday",
+        "startDate": "2020",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
@@ -45,18 +45,18 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-illustrator-original",
+            "name": "Illustrator"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-acrobat-plain",
+            "name": "Adobe Acrobat"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
+        "title": "Woolen Boon",
+        "startDate": "2016-now",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
@@ -65,12 +65,12 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
             "class": "devicon-csharp-plain",
@@ -81,37 +81,40 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "ReposiStory",
+        "title": "Capstone Project",
+        "years": "12.2021 - 12.2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "Web Application"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "React.js",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Python",
+          "Django",
+          "HTML5",
+          "CSS3",
+          "Chart.js",
+          "UX/UI"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Woolen Boon",
+        "title": "Owner",
+        "years": "03.2016 - present",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Project Management",
+          "Strategic Planning",
+          "Data Analysis",
+          "Financial Planning",
+          "Business Development",
+          "Creative Strategy",
+          "UX/UI"
         ]
       }
     ]
