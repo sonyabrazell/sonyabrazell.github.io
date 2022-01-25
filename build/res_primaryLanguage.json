@@ -1,0 +1,121 @@
+{
+    "basic_info": {
+      "description_header": "Hi. 🖤",
+      "description": "👋 I'm Sonya Brazell (she/her). I'm a developer, designer, and entreprenuer based in Austin, TX. Beautiful functionality is my happy place. I thrive in order and color, and I adore being able to play in the intersection between technical and visual.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "ReposiStory",
+        "startDate": "2021",
+        "description": "As an avid reader, I'm always looking for ways to organize and track the books I own, and what I've read. Currently, there are no mainstream applications that help track both traditionally published books, as well as original works or fanworks. ReposiStory is a reading application that records a reader's personal library, and tracks both books and original works read. Readers are able to create an account, log in, and add books to their library, or search for books using the Google Books API. Readers can mark books as read, or add original works when completed. ReposiStory is able to provide both recommended books based on the reader's library, and data visualizations through Chart.js to track books, original works, and words read by month. ",
+        "images": [
+          "images/portfolio/reposistory/reposiStorydata.png",
+          "images/portfolio/reposistory/reposiStoryLibrary.png",
+          "images/portfolio/reposistory/reposiStoryTracker.png"
+        ],
+        "url": "https://www.youtube.com/watch?v=MO_JmPW9oqw",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Rebel Tuesday",
+        "startDate": "2020",
+        "description": "Digital goods shop, specializing in digital notebooks, papers, stickers, planners, and palettes.",
+        "images": [
+          "images/portfolio/rebeltuesday/RTHome.png"
+        ],
+        "url": "https://etsy.com/rebeltuesday",
+        "technologies": [
+          {
+            "class": "",
+            "name": "Affinity Publisher"
+          },
+          {
+            "class": "",
+            "name": "Affinity Designer"
+          },
+          {
+            "class": "",
+            "name": "Adobe Acrobat"
+          }
+        ]
+      },
+      {
+        "title": "Woolen Boon",
+        "startDate": "2016-now",
+        "description": "Retail website developed and maintained over the last five years.",
+        "images": [
+          "images/portfolio/woolenboon/WBHome.png",
+          "images/portfolio/woolenboon/WBShop.png"
+        ],
+        "url": "https://woolenboon.co",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "ReposiStory",
+        "title": "Capstone Project",
+        "years": "12.2021 - 12.2021",
+        "mainTech": [
+          "Web Application"
+        ],
+        "technologies": [
+          "REST API",
+          "React.js",
+          "JavaScript",
+          "Bootstrap",
+          "Python",
+          "Django",
+          "HTML5",
+          "CSS3",
+          "Chart.js",
+          "UX/UI"
+        ]
+      },
+      {
+        "company": "Woolen Boon",
+        "title": "Owner",
+        "years": "03.2016 - present",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "Project Management",
+          "Strategic Planning",
+          "Data Analysis",
+          "Financial Planning",
+          "Business Development",
+          "Creative Strategy",
+          "UX/UI"
+        ]
+      }
+    ]
+  }
