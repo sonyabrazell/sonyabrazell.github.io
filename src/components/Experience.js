@@ -31,11 +31,11 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={work.years}
+            date={<div style={{fontSize:"16px", textTransform: "uppercase"}}>{work.years}</div>}
             iconStyle={{
               background: "#AE944F",
+              fontSize:"10px",
               color: "#fff",
-              fontSize:"14px",
               textAlign: "center",
             }}
             icon={<i className="fas fa-code experience-icon"></i>}

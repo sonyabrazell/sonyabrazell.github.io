@@ -3,7 +3,7 @@ $cos45: 0.7071;
 $transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
 $slider-height-percentage: 60%;
 $slider-transition-duration: 575ms;
-$organic-arrow-color: #8C8C8C;
+$organic-arrow-color: #76b7cc;
 $organic-arrow-thickness: 4px;
 $organic-arrow-height: 40px;
 $organic-arrow-border-radius: 0;
@@ -12,10 +12,10 @@ $control-button-height: 25%;
 $control-button-opacity: 0.5;
 $control-button-hover-opacity: 0.75;
 $control-button-background: transparent;
-$loader-bar-color: #656565;
+$loader-bar-color: #76b7cc;
 $loader-bar-height: 6px;
-$control-bullet-color: #8C8C8C;
-$control-bullet-active-color: #8C8C8C;
+$control-bullet-color: #b7f8e7;
+$control-bullet-active-color: #005675;
 $content-background-color: #8C8C8C;
 
 %fill-parent {
@@ -98,7 +98,7 @@ $content-background-color: #8C8C8C;
 
     > div {
       height: 100%;
-      width: 100%;
+      width: auto;
       display: flex;
       align-items: center;
       justify-content: center;

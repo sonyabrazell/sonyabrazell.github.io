@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Sonya Brazell(she/her). I'm a developer, designer, and entreprenuer based in Austin, TX. Beautiful functionality is my happy place. I thrive in order and color, and I adore being able to play in the intersection between technical and visual.",
+      "description_header": "Hi. 🖤",
+      "description": "👋 I'm Sonya Brazell (she/her). I'm a developer, designer, and entreprenuer based in Austin, TX. Beautiful functionality is my happy place. I thrive in order and color, and I adore being able to play in the intersection between technical and visual.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -53,7 +53,7 @@
             "name": "Affinity Designer"
           },
           {
-            "class": "devicon-acrobat-plain",
+            "class": "",
             "name": "Adobe Acrobat"
           }
         ]
@@ -63,10 +63,10 @@
         "startDate": "2016-now",
         "description": "Retail website developed and maintained over the last five years.",
         "images": [
-          "./images/portfolio/woolenboon/WBHome.png",
+          "images/portfolio/woolenboon/WBHome.png",
           "images/portfolio/woolenboon/WBShop.png"
         ],
-        "url": "https://github.com",
+        "url": "https://woolenboon.co",
         "technologies": [
           {
             "class": "devicon-html5-plain",

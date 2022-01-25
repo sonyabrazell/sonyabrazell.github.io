@@ -90,11 +90,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #889ba6;
+	border: 5px solid whitesmoke;
 }
 
 .slider-tab {
-	background-color: #889ba6;
+	background-color: lightgray;
 	height: 25px;
 }
 
@@ -124,7 +124,7 @@ header h1 {
 
 .foto img {
 	display: block;
-	width: 100%;
+	width: auto;
 }
 
 .foto div {
@@ -419,6 +419,10 @@ footer {
 	color: white;
 	position: relative;
 	text-align: center;
+}
+
+a {
+	color: #cf7d00
 }
 
 footer a,

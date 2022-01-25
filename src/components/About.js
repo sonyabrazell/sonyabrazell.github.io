@@ -65,10 +65,15 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
+                    <span style={{fontSize:"18px"}}>
                     {about}
+                    <br />
+                    <br />
+                    <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/sonyabrazell">LinkedIn</a> or <a href="https://www.instagram.com/cozy.codes">Instagram</a>, or download my <a href="https://wwww.sonyabrazell.github.io/resume">resume.</a> and let's make something together!</p>
+                  </span>
                   </div>
                 </div>
               </div>

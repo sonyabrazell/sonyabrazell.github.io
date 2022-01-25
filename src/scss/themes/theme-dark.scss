@@ -45,11 +45,11 @@ body[data-theme="dark"] {
          color: white;
       }
       .polaroid span {
-         background:  #889ba6;
+         background:  lightgray;
       }
       .card {
-         background: #889ba6;
-         color: white;
+         background: lightgray;
+         color: black;
       }
    }
 
@@ -59,10 +59,10 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #889ba6;
+         background: lightgray;
       }
       .project-title-settings {
-         color: white;
+         color: black;
       }
    }
 
@@ -79,7 +79,7 @@ body[data-theme="dark"] {
       }
 
       .main-badge {
-         background: #ec2e51 !important;
+         background: #005675 !important;
       }
 
       .vertical-timeline-element-date {
@@ -87,7 +87,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-icon {
-         background: #ff6fce !important;
+         background: #76b7cc !important;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {
@@ -97,8 +97,8 @@ body[data-theme="dark"] {
    }
 
    .modal-inside .modal-content {
-      background: #889ba6;
-      color: white;
+      background: lightgray;
+      color: black;
    }
 
    .close-icon {
