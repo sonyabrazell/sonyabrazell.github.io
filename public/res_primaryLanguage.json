@@ -13,12 +13,13 @@
       {
         "title": "ReposiStory",
         "startDate": "2021",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "As an avid reader, I'm always looking for ways to organize and track the books I own, and what I've read. Currently, there are no mainstream applications that help track both traditionally published books, as well as original works or fanworks. ReposiStory is a reading application that records a reader's personal library, and tracks both books and original works read. Readers are able to create an account, log in, and add books to their library, or search for books using the Google Books API. Readers can mark books as read, or add original works when completed. ReposiStory is able to provide both recommended books based on the reader's library, and data visualizations through Chart.js to track books, original works, and words read by month. ",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/reposistory/reposiStorydata.png",
+          "images/portfolio/reposistory/reposiStoryLibrary.png",
+          "images/portfolio/reposistory/reposiStoryTracker.png"
         ],
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=MO_JmPW9oqw",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -37,16 +38,19 @@
       {
         "title": "Rebel Tuesday",
         "startDate": "2020",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Digital goods shop, specializing in digital notebooks, papers, stickers, planners, and palettes.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/rebeltuesday/RTHome.png"
         ],
-        "url": "https://github.com",
+        "url": "https://etsy.com/rebeltuesday",
         "technologies": [
           {
-            "class": "devicon-illustrator-original",
-            "name": "Illustrator"
+            "class": "",
+            "name": "Affinity Publisher"
+          },
+          {
+            "class": "",
+            "name": "Affinity Designer"
           },
           {
             "class": "devicon-acrobat-plain",
@@ -57,10 +61,10 @@
       {
         "title": "Woolen Boon",
         "startDate": "2016-now",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Retail website developed and maintained over the last five years.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "./images/portfolio/woolenboon/WBHome.png",
+          "images/portfolio/woolenboon/WBShop.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -71,10 +75,6 @@
           {
             "class": "devicon-css3-plain",
             "name": "CSS3"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
           }
         ]
       }

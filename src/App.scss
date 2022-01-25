@@ -1,6 +1,6 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
 	font-size: 62.5%;
@@ -20,7 +20,7 @@ html {
 }
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Outfit', sans-serif;
 	font-size: 250%;
 }
 
@@ -53,8 +53,8 @@ header {
 }
 
 .project-date {
-	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	font-family: 'Outfit', sans-serif;
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
@@ -84,7 +84,7 @@ header h1 {
 	text-align: center;
 	font-weight: 600 !important;
 	color: #040618;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Outfit', sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
@@ -114,7 +114,8 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 20px/26px 'Outfit', sans-serif;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -146,6 +147,7 @@ header h1 {
 .foto div:after {
 	color: #333;
 	font-size: 25px;
+	font-weight:400;
 	content: attr(title);
 	position: relative;
 	top: 15px;
@@ -163,7 +165,8 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 20px/26px 'Outfit', sans-serif;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -172,14 +175,14 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: auto;
 }
 
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	margin: 45px 75px 30px;
+	padding: 15px 15px 40px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -201,11 +204,12 @@ header h1 {
 }
 
 .font-trebuchet {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Outfit', sans-serif;
+	font-size: 24px;
 }
 
 #preview {
-	width: 500px;
+	width: auto;
 	background-color: #ffe9db;
 	padding: 15px;
 	position: relative;
@@ -229,25 +233,25 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 16px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #ec2e51 !important;
 	color: white;
-	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 400 !important;
+	font-family: 'Outfit', sans-serif;
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 13px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #cf7d00 !important;
 	color: white;
-	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 300 !important;
+	font-family: 'Outfit', sans-serif;
 }
 
 .vertical-timeline-element-date {
@@ -292,7 +296,7 @@ header h1 {
 }
 
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Outfit', sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -391,7 +395,8 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 20px/26px 'Outfit', sans-serif;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
